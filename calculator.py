@@ -10,3 +10,9 @@ def calculate_power():
         print("Invalid input. Please enter numberic Values.")
 
 calculate_power()
+def divide(a, b):
+    if b == 0:
+        return "Error: Cannot divide by zero."
+    return a / b
+    
+    
