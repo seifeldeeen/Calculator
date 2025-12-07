@@ -1,3 +1,4 @@
+#power
 def calculate_power():
     base = int(input("Enter the base Number: "))
     exponent = int(input("Enter the Exponent Number: "))
@@ -10,6 +11,8 @@ def calculate_power():
         print("Invalid input. Please enter numberic Values.")
 
 calculate_power()
+
+#division
 def divide(a, b):
     if b == 0:
         return "Error: Cannot divide by zero."
